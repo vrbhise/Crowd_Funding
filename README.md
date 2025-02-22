@@ -1,50 +1,168 @@
-# React + TypeScript + Vite
+![image](https://github.com/design-sparx/crowdup/assets/26582923/001cd476-c753-4087-96a6-ee8c99fc3612)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Crowdfunding website project
 
-Currently, two official plugins are available:
+<<<<<<< HEAD
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+=======
+[Online Demo](https://crowd-up.netlify.app/ "Online Demo")
+>>>>>>> parent of ddc96d2... first commit
 
-## Expanding the ESLint configuration
+### About:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+CrowdUp is a crowdfunding platform that helps you get funding for your personal projects, charities, and NGOs. Start a fundraiser and receive donations from individuals who care about your cause.
 
-- Configure the top-level `parserOptions` property like this:
+#### Available Pages
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Home
+2. How it works
+3. Campaigns
+4. Campaign details
+5. Create campaigns
+6. Dashboard
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Tech Stack:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- embla-carousel-react v7 - https://www.embla-carousel.com/get-started/
+- mantine v6 - https://mantine.dev/pages/getting-started/
+- react v18 - https://reactjs.org/docs/getting-started.html
+- tabler-icons v2- https://react-icons.github.io/react-icons/
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+**Dev dependencies**
+
+- eslint v8 - https://eslint.org/docs/latest/user-guide/getting-started- 
+- vite v4 - https://vitejs.dev/
+
+### Software
+
+Before proceeding, please ensure you have the following software installed on your computer.
+
+- Node
+- Yarn (optional but recommended)
+- Git command line tools
+
+### Useful links
+
+- Download Git cli -
+    - Windows: https://git-scm.com/download/windows
+    - Mac: https://git-scm.com/download/mac
+- Download Node - https://nodejs.org/en/
+- Download Yarn cli - https://yarnpkg.com/lang/en/docs/install/
+- Download VSCode - https://code.visualstudio.com/
+
+### Getting started
+
+Please fork a copy of this repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Alternatively download or clone the master branch.
+
+##### Download & Install Dependencies on your machine
+
+Clone the repo to your machine
+`git clone <CloneURL>`
+
+##### Launch the frontend
+
+1. Open a new terminal window and navigate in your root folder
+   `cd <../root>`
+   `yarn install OR npm install`
+2. Run the start script
+   `yarn run start OR npm run start`
+
+Your app should be running on: http://localhost:3000
+
+### Versions
+
+v1.0
+
+- Default project implementation
+
+### Authors
+
+1. Kelvin Kiptum Kiprop - https://github.com/kelvink96
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/kelvink96ltd/flick-city/blob/master/LICENSE.md) file for details
+![image](https://github.com/design-sparx/crowdup/assets/26582923/001cd476-c753-4087-96a6-ee8c99fc3612)
+
+# Crowdfunding website project
+
+<<<<<<< HEAD
+
+=======
+[Online Demo](https://crowd-up.netlify.app/ "Online Demo")
+>>>>>>> parent of ddc96d2... first commit
+
+### About:
+
+CrowdUp is a crowdfunding platform that helps you get funding for your personal projects, charities, and NGOs. Start a fundraiser and receive donations from individuals who care about your cause.
+
+#### Available Pages
+
+1. Home
+2. How it works
+3. Campaigns
+4. Campaign details
+5. Create campaigns
+6. Dashboard
+
+### Tech Stack:
+
+- embla-carousel-react v7 - https://www.embla-carousel.com/get-started/
+- mantine v6 - https://mantine.dev/pages/getting-started/
+- react v18 - https://reactjs.org/docs/getting-started.html
+- tabler-icons v2- https://react-icons.github.io/react-icons/
+
+**Dev dependencies**
+
+- eslint v8 - https://eslint.org/docs/latest/user-guide/getting-started- 
+- vite v4 - https://vitejs.dev/
+
+### Software
+
+Before proceeding, please ensure you have the following software installed on your computer.
+
+- Node
+- Yarn (optional but recommended)
+- Git command line tools
+
+### Useful links
+
+- Download Git cli -
+    - Windows: https://git-scm.com/download/windows
+    - Mac: https://git-scm.com/download/mac
+- Download Node - https://nodejs.org/en/
+- Download Yarn cli - https://yarnpkg.com/lang/en/docs/install/
+- Download VSCode - https://code.visualstudio.com/
+
+### Getting started
+
+Please fork a copy of this repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Alternatively download or clone the master branch.
+
+##### Download & Install Dependencies on your machine
+
+Clone the repo to your machine
+`git clone <CloneURL>`
+
+##### Launch the frontend
+
+1. Open a new terminal window and navigate in your root folder
+   `cd <../root>`
+   `yarn install OR npm install`
+2. Run the start script
+   `yarn run start OR npm run start`
+
+Your app should be running on: http://localhost:3000
+
+### Versions
+
+v1.0
+
+- Default project implementation
+
+### Authors
+
+1. Kelvin Kiptum Kiprop - https://github.com/kelvink96
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/kelvink96ltd/flick-city/blob/master/LICENSE.md) file for details
