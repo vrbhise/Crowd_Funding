@@ -2,12 +2,6 @@
 
 # Crowdfunding website project
 
-<<<<<<< HEAD
-
-=======
-[Online Demo](https://crowd-up.netlify.app/ "Online Demo")
->>>>>>> parent of ddc96d2... first commit
-
 ### About:
 
 CrowdUp is a crowdfunding platform that helps you get funding for your personal projects, charities, and NGOs. Start a fundraiser and receive donations from individuals who care about your cause.
