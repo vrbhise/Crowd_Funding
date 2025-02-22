@@ -69,29 +69,6 @@ Clone the repo to your machine
 
 Your app should be running on: http://localhost:3000
 
-### Versions
-
-v1.0
-
-- Default project implementation
-
-### Authors
-
-1. Kelvin Kiptum Kiprop - https://github.com/kelvink96
-
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/kelvink96ltd/flick-city/blob/master/LICENSE.md) file for details
-![image](https://github.com/design-sparx/crowdup/assets/26582923/001cd476-c753-4087-96a6-ee8c99fc3612)
-
-# Crowdfunding website project
-
-<<<<<<< HEAD
-
-=======
-[Online Demo](https://crowd-up.netlify.app/ "Online Demo")
->>>>>>> parent of ddc96d2... first commit
-
 ### About:
 
 CrowdUp is a crowdfunding platform that helps you get funding for your personal projects, charities, and NGOs. Start a fundraiser and receive donations from individuals who care about your cause.
