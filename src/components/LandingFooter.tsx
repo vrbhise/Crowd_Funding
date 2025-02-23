@@ -173,7 +173,7 @@ const LandingFooter = ({data}: FooterLinksProps) => {
                 </Text>
 
                 <Group spacing={0} className={classes.social} position="right" noWrap>
-                    <ActionIcon size="lg" component="a" href="" target="_blank">
+                    <ActionIcon size="lg" component="a" href="https://github.com/vrbhise" target="_blank">
                         <IconBrandGithub size="20" stroke={2}/>
                     </ActionIcon>
                     <ActionIcon size="lg" component="a" href="" target="_blank">
@@ -182,10 +182,10 @@ const LandingFooter = ({data}: FooterLinksProps) => {
                     <ActionIcon size="lg" component="a" href="" target="_blank">
                         <IconBrandFacebook size="20" stroke={2}/>
                     </ActionIcon>
-                    <ActionIcon size="lg" component="a" href="" target="_blank">
+                    <ActionIcon size="lg" component="a" href="https://www.instagram.com/vaibhaviii.10?igsh=dzh2emxrZnUxMTJp" target="_blank">
                         <IconBrandInstagram size="20" stroke={2}/>
                     </ActionIcon>
-                    <ActionIcon size="lg" component="a" href="" target="_blank">
+                    <ActionIcon size="lg" component="a" href="https://www.linkedin.com/in/vaibhavi-bhise/" target="_blank">
                         <IconBrandLinkedin size="20" stroke={2}/>
                     </ActionIcon>
                 </Group>
